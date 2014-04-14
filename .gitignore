@@ -7,3 +7,5 @@
 .sw[a-z]
 tags
 tegra/
+build/
+.idea/

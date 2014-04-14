@@ -194,9 +194,9 @@
 #    endif
 #  endif
 #endif
-#if !defined(STDC) && (defined(__STDC__) || defined(__cplusplus))
-#  define STDC
-#endif
+
+#  define STDC /* whatever */
+
 #if !defined(STDC) && (defined(__GNUC__) || defined(__BORLANDC__))
 #  define STDC
 #endif
